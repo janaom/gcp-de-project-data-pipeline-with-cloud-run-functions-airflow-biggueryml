@@ -38,3 +38,6 @@ def make_airflow_request(dag_name: str, data: dict) -> requests.Response:
     session.auth = (username, password)
 
     return session.post(url, json={"conf": data})
+
+#add requests, google-cloud-logging to requirements.txt
+#set the entry point to 'trigger_dag'
