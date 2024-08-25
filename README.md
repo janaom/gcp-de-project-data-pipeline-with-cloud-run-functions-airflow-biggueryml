@@ -1,0 +1,2 @@
+# gcp-de-project-data-pipeline-with-functions-airflow-biggueryml
+ Build a data pipeline on Google Cloud using an event-driven architecture, leveraging GCS, Cloud Run functions, and BigQuery. Explore both VM and Composer options for Airflow management, and utilize Logging &amp; Monitoring for pipeline health. Discover how SQL-based BigQuery ML can be used for initial ML implementation in specific scenarios. 
