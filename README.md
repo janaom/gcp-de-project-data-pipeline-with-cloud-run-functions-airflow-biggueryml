@@ -200,6 +200,9 @@ jana@airflow-vm:~/airflow/dags$ pwd
 
 To remove DAG examples, locate the `load_examples = True` line in the airflow.cfg file and change it to `False`. Restart your VM to apply the changes.
 
+![1_yS3ZhGGFD7eg23Vp5IsQ0Q](https://github.com/user-attachments/assets/52e5b290-4b30-4e9b-80ee-d609f37b36a5)
+
+
 Depending on the operators you plan to use in your DAG, you might need to install additional packages on your VM. If you're unsure about which packages are required, try uploading your DAG to the `dags` folder and checking the Airflow UI for any errors. For instance, a `ModuleNotFoundError: No module named 'airflow.providers.google'` indicates that your Airflow installation lacks the necessary packages  to interact with Google Cloud APIs. To resolve this, install the  required package using `pip install apache-airflow-providers-google` on your VM and restart Airflow. If you encounter any errors, consult the Airflow logs for more detailed information.
 
 Any changes you make to your DAG files will be reflected immediately in the Airflow UI. If you encounter any syncing issues, stop the processes in your VM using `CTRL+C`, then restart them with the command `airflow standalone`.
