@@ -31,6 +31,9 @@ This project was born from the harsh reality that, while I'm still eager to buil
 
 ![Screenshot (1912)2](https://github.com/user-attachments/assets/388e47a5-bcab-468a-87bc-97e30bce10d9)
 
+![Screenshot (1911)2](https://github.com/user-attachments/assets/7f8db36c-9c3e-48e7-ae3d-059b26cfdb2c)
+
+
 ---
 
 For this project, I'm using the PortWatch IMF [Daily Port Activity Data and Trade Estimates](https://portwatch.imf.org/datasets/75619cb86e5f4beeb7dab9629d861acf/about) dataset. This dataset provides daily counts of port calls, as well as estimates of import and export volumes (in metric tons) for 1642 ports worldwide. [PortWatch](https://portwatch.imf.org/pages/about) is a collaborative effort between the [International Monetary Fund](https://www.imf.org/en/Home) and the [Environmental Change Institute](https://www.eci.ox.ac.uk/) at the University of Oxford. It leverages real-time data on vessel movements, specifically Automatic Identification System (AIS) signals, as its primary data source. As of July, I was able to download a table containing over 3.3 million records. The data is publicly available and updated weekly. Here are the columns:
