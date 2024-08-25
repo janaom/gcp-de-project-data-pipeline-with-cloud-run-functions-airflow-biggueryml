@@ -209,8 +209,11 @@ Any changes you make to your DAG files will be reflected immediately in the Airf
 
 Here are some essential Airflow commands:
 
+
 **View Configuration**: `airflow config list`
+
 **List DAGs**: `airflow dags list`
+
 **Restart Webserver and Scheduler**: `airflow webserver -D`; `airflow scheduler -D`
 
 Here is an example: 
