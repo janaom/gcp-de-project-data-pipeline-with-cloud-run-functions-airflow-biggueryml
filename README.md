@@ -1,4 +1,4 @@
-# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c879fbf8-1d88-4080-97c3-5dcbd42e240f"> GCP Data Engineering Project: Data Pipeline with Cloud Functions, Airflow and BigQuery ML 🚢
+# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c879fbf8-1d88-4080-97c3-5dcbd42e240f"> GCP Data Engineering Project: Data Pipeline with Cloud Run Functions, Airflow and BigQuery ML 🚢
 
 This project will demonstrate how to build a data pipeline on Google Cloud using an event-driven architecture, leveraging services like GCS, Cloud Run functions, and BigQuery. We'll explore both VM and Composer options for managing Airflow, and utilize Logging and Monitoring services to track the pipeline's health. Finally, we'll experiment with BigQuery ML, showcasing how SQL knowledge alone can be sufficient for initial ML implementation in certain scenarios.
 
