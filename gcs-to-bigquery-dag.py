@@ -23,7 +23,7 @@ with DAG(
         delimiter='/',
         gcp_conn_id='google_cloud_default',
     )
-    #Task to load the latest CSV file from GCS bucket to BigQuery
+    #Task to load all CSV files from GCS bucket to BigQuery
     load_to_bigquery = GCSToBigQueryOperator(
         task_id='load_to_bigquery',
         bucket='your-bucket',
