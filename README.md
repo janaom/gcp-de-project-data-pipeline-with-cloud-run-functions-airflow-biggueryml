@@ -233,7 +233,7 @@ Unfortunately, each time you restart your VM, the External IP address will chang
 ![Screenshot (2099)](https://github.com/user-attachments/assets/ce36f13a-a140-4613-aa94-1962149208f2)
 
 
-## To connect your Airflow to Bigquery
+## To connect your Airflow to BigQuery
 
 - Create a JSON key for either the Compute Engine default service account or a dedicated service account for your project. Upload the key to the VM.
 
